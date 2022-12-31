@@ -1,0 +1,141 @@
+/* The overall style of the page, including the background color and text font */
+body{
+  background-color: #5356ad;
+  left: 0;
+  top: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* The style related to the placement of two cards */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 5px;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* The color and curvature of the card and the middle of its folding */
+.card-info {
+  height: 250px;
+  width: 450px;
+  background-color: #999ede;
+  border-radius: 5%;
+  align-self: center;
+  margin-right: 7.5px;
+}
+
+/* The color and curvature of the card and the middle of its folding */
+.card-submit {
+  height: 250px;
+  width: 300px;
+  background-color: #999ede;
+  border-radius: 5%;
+  align-self: center;
+  margin-left: 7.5px;
+}
+
+/* Submit button & Input style */
+.content-submit{
+  text-align: center;
+  margin-top: 20%;
+}
+
+/* Input button style */
+input {
+  padding: 12px 20px;
+  border: 1px solid #787dc4;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+/* Submit button style */
+.button-submit {
+  border: none;
+  color: #787dc4;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  border: 1px solid #787dc4;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+/* If the mouse is placed on the button, its style changes */
+.button-submit:hover {
+  background-color: #5356ad;
+  color: white;
+}
+
+/* Style of information of user in left side */
+.grid-container {
+  display: grid;
+  padding: 20px;
+}
+.grid-item {
+  font-size: 13px;
+}
+.item1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 4;
+}
+.item2 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 4;
+  text-align: center;
+}
+.item5 {
+  grid-column: 1 / 3;
+  grid-row: 6 / 7;
+  font-family: "Times New Roman", Times, serif;
+  overflow: auto;
+}
+.item6 {
+  grid-column: 1 / 3;
+  grid-row: 7 / 8;
+}
+
+.item1 {
+  margin: 20px;
+  right: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #9297e0;
+  background: white;
+  overflow: hidden;
+}
+
+.avatar-img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover" 
+}
+
+.error{
+  color: rgb(253, 38, 0);
+  font-weight: bold;
+}
+
+.user_stage{
+  font-size: small;
+}
+
+/* Cat logo in the bottom corner of the screen */
+.cat {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3;
+  fill: #fff;
+}
