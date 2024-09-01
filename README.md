@@ -1,3 +1,5 @@
+# GitHub User Info Display
+
 This project is a web application designed to display information about a GitHub user. The application uses GitHub's REST API to fetch user details and presents them in a visually appealing manner. The design includes a full-screen background with a semi-transparent rectangle in the center that holds the user information.
 
 ## Project Overview
