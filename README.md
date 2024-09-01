@@ -46,6 +46,10 @@ The API returns a JSON response with the following structure:
 }
 ```
 
+## Live Demo
+
+You can view a live demo of the project [here](https://shivamoulodi.github.io/Github-search-users-by-username-using-github-api/).
+
 ### Instructions
 1. **Clone the Repository**: 
    ```bash
