@@ -23,16 +23,6 @@ This project is a web application designed to display information about a GitHub
 - **JavaScript**: Handles user input, API requests, and dynamic content updates.
 - **GitHub API**: Used to fetch user data from GitHub.
 
-### API Documentation
-For detailed information on the GitHub API, refer to the [GitHub REST API Documentation](https://docs.github.com/en/rest/reference).
-
-### API Endpoint
-To get user information, the application sends a GET request to the following endpoint:
-```
-https://api.github.com/users/{username}
-```
-Replace `{username}` with the GitHub username you wish to query.
-
 ### Example Response
 The API returns a JSON response with the following structure:
 ```json
@@ -49,18 +39,5 @@ The API returns a JSON response with the following structure:
 ## Live Demo
 
 You can view a live demo of the project [here](https://shivamoulodi.github.io/Github-search-users-by-username-using-github-api/).
-
-### Instructions
-1. **Clone the Repository**: 
-   ```bash
-   git clone https://github.com/yourusername/github-user-info-display.git
-   ```
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd github-user-info-display
-   ```
-3. **Open the Application**: Open the `index.html` file in your web browser to view the application.
-
-4. **Enter a GitHub Username**: Type a GitHub username into the form and submit to see the user's information displayed.
 
 ---
